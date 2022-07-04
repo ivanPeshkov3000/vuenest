@@ -1,0 +1,17 @@
+{
+  "name": "nest_vue_monorepo",
+  "workspaces": [
+    "/front_VueJS",
+    "/back_NestJS"
+  ],
+  "version": "0.1.0",
+  "description": "My little mono",
+  "scripts": {
+    "start": "npm start -ws",
+    "start:dev": "npm run start:dev --workspaces",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vitaliy V <vitalik.voronov1989@yandex.ru>",
+  "repository": "github:ivanPeshkov3000/vuenest.git",
+  "license": "ISC"
+}
